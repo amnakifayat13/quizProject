@@ -1,0 +1,54 @@
+
+[
+    {
+      "question": "What is TypeScript primarily used for?",
+      "choices": [
+        "A. Building mobile applications",
+        "B. Creating web applications",
+        "C. Managing databases",
+        "D. Designing user interfaces"
+      ],
+      "correct_answer": "B. Creating web applications"
+    },
+    {
+      "question": "Which of the following best describes TypeScript?",
+      "choices": [
+        "A. A markup language",
+        "B. A programming language",
+        "C. A database management system",
+        "D. A web browser"
+      ],
+      "correct_answer": "B. A programming language"
+    },
+    {
+      "question": "What feature does TypeScript provide that JavaScript lacks?",
+      "choices": [
+        "A. Static typing",
+        "B. Dynamic typing",
+        "C. Object-oriented programming",
+        "D. Functional programming"
+      ],
+      "correct_answer":  "A. Static typing"
+    },
+    {
+      "question": "Which file extension is commonly used for TypeScript files?",
+      "choices": [
+        "A. .js",
+        "B. .html",
+        "C. .ts",
+        "D. .css"
+      ],
+      "correct_answer": "C. .ts"
+    },
+    {
+      "question": "What command is used to compile TypeScript code into JavaScript?",
+      "choices": [
+        "A. tsc",
+        "B. gcc",
+        "C. javac",
+        "D. py"
+      ],
+      "correct_answer": "A. tsc"
+    }
+  ]
+
