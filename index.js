@@ -1,7 +1,12 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 import fs from "fs/promises";
-let data = await fs.readFile("data.json", "utf-8");
+import path from "path";
+import { fileURLToPath } from "url";
+const __fileName = fileURLToPath(import.meta.url);
+const __dirName = path.dirname(__fileName);
+let dataPath = path.join(__dirName, "data.json");
+let data = await fs.readFile(dataPath, "utf-8");
 const questionObject = JSON.parse(data);
 let loop = 1;
 let questionArr = questionObject.map((item) => {

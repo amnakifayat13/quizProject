@@ -1,8 +1,17 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 import fs from "fs/promises";
+import path from "path";
+import {fileURLToPath} from "url";
 
-let data: string = await fs.readFile("data.json", "utf-8");
+const __fileName = fileURLToPath(import.meta.url);
+const __dirName = path.dirname(__fileName);
+
+let dataPath = path.join(__dirName, "data.json");
+
+
+
+let data: string = await fs.readFile(dataPath, "utf-8");
 const questionObject: any[] = JSON.parse(data);
 
 
